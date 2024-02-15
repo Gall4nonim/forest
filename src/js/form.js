@@ -108,7 +108,7 @@ sendBtn.addEventListener('click', e => {
 	e.preventDefault()
 	checkForm(allFormField)
 	checkLength(username, 3)
-	checkLength(surname, 3)
+	checkLength(surname, 2)
 	checkLength(msg, 30)
 	checkMail(email)
 	checkErrors()
